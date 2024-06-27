@@ -4,12 +4,12 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name="diffsynth",
-    py_modules=["diffsynth"],
+    name="diffsynth", # init
+    py_modules=["diffsynth"], # module corresponds
     version="1.0.0",
     description="",
-    author="Artiprocher",
-    packages=find_packages(),
+    author="Artiprocher", #hugging face name 
+    packages=find_packages(), 
     install_requires=[
         str(r)
         for r in pkg_resources.parse_requirements(
